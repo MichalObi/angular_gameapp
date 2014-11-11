@@ -1,0 +1,25 @@
+{
+    "id": "darksouls", 
+    "name": "Dark Souls",
+    "review": "Project Dark (Working Title) is a brand new dark fantasy RPG designed to completely embrace the concepts of tension in dungeon exploration, fear in encountering enemies, the joy of new discoveries, and a high sense of achievement in progressing. The game is set in a dark fantasy world filled with decadent atmosphere, with a heavy emphasis on player freedom in discovering various tactics and strategies to use in weapon based combat.",
+    "images": [
+        "img/phones/darksouls.jpg", 
+        "img/phones/darksouls.1.jpg", 
+        "img/phones/darksouls.2.jpg", 
+        "img/phones/darksouls.3.jpg" 
+    ],
+    "developer": "From Software",
+    "release": "Oct 4, 2011",
+    "availability": [
+        "PC/",
+        "PS3/",
+        "X360"
+    ],
+    "trailer":"http://www.metacritic.com/game/xbox-360/dark-souls/trailers",
+    "genre": "Action RPG",
+    "rating": "M",
+    "metascore": "89",
+    "userscore": "8.4",
+    "numofreviews": "870",
+    "metacritic":"http://www.metacritic.com/game/xbox-360/dark-souls" 
+}

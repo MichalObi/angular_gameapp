@@ -1,0 +1,28 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <!--Sidebar content-->
+
+      Search: <input ng-model="query">
+      Sort by:
+      <select ng-model="orderProp">
+        <option value="name">Alphabetical</option>
+        <option value="age">Newest</option>
+      </select>
+
+    </div>
+    <div class="col-md-12">
+      <!--Body content-->
+
+      <ul class="games">
+        <li ng-repeat="game in games | filter:query | orderBy:orderProp"
+            class="thumbnail game-listing">
+          <a href="#/games/{{game.id}}" class="thumb"><img ng-src="{{game.imageUrl}}"></a>
+          <a href="#/games/{{game.id}}">{{game.name}}</a>
+          <p>{{game.snippet}}</p>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</div>

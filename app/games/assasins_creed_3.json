@@ -1,0 +1,27 @@
+{
+    "id": "assasins_creed_3", 
+    "name": "Assassins creed 3",
+    "review": "Assume the role of Connor, the son of a Native American mother and English father. As a revolution is imminent, your people are threatened by a powerful movement aiming to quell the American revolution and seize control the colonies. After your village is decimated, you bind yourself to the cause of freedom, and set out on a decades-long quest to achieve it. Your predatory instincts, developed through years of hunting in rough tundra, enable you to pursue and kill your targets in silence. When overt combat becomes necessary, you can uncork a myriad of weapons including tomahawks, darts, and guns.",
+    "images": [
+        "img/phones/assasins_creed_3.jpg", 
+        "img/phones/assasins_creed_3.1.jpg", 
+        "img/phones/assasins_creed_3.2.jpg", 
+        "img/phones/assasins_creed_3.3.jpg" 
+    ],
+    "developer": "Ubisoft",
+    "release": "Nov 20, 2012",
+    "availability": [
+        "PC/",
+        "PS3/",
+        "X360/",
+        "WiiU"
+    ],
+    "trailer":"http://www.metacritic.com/game/pc/assassins-creed-iii/trailers",
+    "genre": "Historic",
+    "rating": "M",
+    "metascore": "80",
+    "userscore": "6.1",
+    "numofreviews": "1175",
+    "metacritic":"http://www.metacritic.com/game/pc/assassins-creed-iii" 
+}
+
