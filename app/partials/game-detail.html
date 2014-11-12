@@ -1,47 +1,54 @@
-<div class="game-images">
-  <img ng-src="{{img}}"
-       class="game"
-       ng-repeat="img in game.images"
-       ng-class="{active: mainImageUrl==img}">
-</div>
+<div class="container">
+  <div class="row">
+    <div class="game-images">
+      <img ng-src="{{img}}"
+           class="game"
+           ng-repeat="img in game.images"
+           ng-class="{active: mainImageUrl==img}">
+    </div>
 
-<h1>{{game.name}}</h1>
+    <div>
+      <h1>{{game.name}}</h1>
 
-<p>{{game.review}}</p>
+      <p>{{game.review}}</p>
 
-<button class="btn btn-primary"><a ng-href="{{game.trailer}}">TRAILER</a></button>
-
-<ul class="game-thumbs">
-  <li ng-repeat="img in game.images">
-    <img ng-src="{{img}}" ng-click="setImage(img)">
-  </li>
-</ul>
+      <button class="btn btn-primary"><a ng-href="{{game.trailer}}">TRAILER</a></button>
+        <ul class="game-thumbs">
+          <li ng-repeat="img in game.images">
+            <img ng-src="{{img}}" ng-click="setImage(img)">
+          </li>
+        </ul>
+    </div>
+  </div>
 
 <div class="row">
-  <ul class="specs">
-    <li>
-      <dl>
-        <dt>Developer:</dt>
-          <dd>{{game.developer}}</dd>
-        <dt>Release Date:</dt>
-          <dd>{{game.release}}</dd>
-        <dt>Avaliable on:<span ng-repeat="availability in game.availability">{{availability}}</span></dt>
-      </dl>
-    </li>
-    <li>
-      <dt>Genre:</dt>
-        <dd>{{game.genre}}</dd>
-      <dt>Rating:</dt>
-        <dd>{{game.rating}}</dd>
-    </li>
-    <li>
-      <dt>Metascore</dt>
-        <dd>{{game.metascore}}</dd>
-      <dt>Userscore:</dt>
-        <dd>{{game.userscore}} of {{game.numofreviews}} reviews.</dd>
-    </li>
-    <li>
-      <a ng-href="{{game.metacritic}}">Check metascore for more info</a>
-    </li>
-  </ul>
+    <div class="col-md-12 col-md-12 desc">
+      <ul class="specs">
+        <li>
+          <dl>
+            <dt>Developer:</dt>
+              <dd>{{game.developer}}</dd>
+            <dt>Release Date:</dt>
+              <dd>{{game.release}}</dd>
+            <dt>Avaliable on:<span ng-repeat="availability in game.availability">{{availability}}</span></dt>
+          </dl>
+        </li>
+        <li>
+          <dt>Genre:</dt>
+            <dd>{{game.genre}}</dd>
+          <dt>Rating:</dt>
+            <dd>{{game.rating}}</dd>
+        </li>
+        <li>
+          <dt>Metascore</dt>
+            <dd>{{game.metascore}}</dd>
+          <dt>Userscore:</dt>
+            <dd>{{game.userscore}} of {{game.numofreviews}} reviews.</dd>
+        </li>
+        <li>
+          <a ng-href="{{game.metacritic}}">Check metascore for more info</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>

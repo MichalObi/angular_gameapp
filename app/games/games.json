@@ -2,28 +2,28 @@
     {
         "age": 0, 
         "id": "gta-v", 
-        "imageUrl": "img/phones/gtav.jpg", 
+        "imageUrl": "img/games/gtav.jpg", 
         "name": "GTA V", 
         "snippet": " Los Santos is a sprawling sun-soaked metropolis full of self-help gurus, starlets and once-important stars. "
     }, 
     {
         "age": 1, 
         "id": "darksouls", 
-        "imageUrl": "img/phones/darksouls.jpg", 
+        "imageUrl": "img/games/darksouls.jpg", 
         "name": "Dark Souls", 
         "snippet": "Project Dark (Working Title) is a brand new dark fantasy RPG designed to completely embrace the concepts of tension in dungeon exploration, fear in encountering enemies, the joy of new discoveries, and a high sense of achievement in progressing."
     }, 
     {
         "age": 2, 
         "id": "lords_of_fallen", 
-        "imageUrl": "img/phones/lords_of_fallen.jpg", 
+        "imageUrl": "img/games/lords_of_fallen.jpg", 
         "name": "Lords of Fallen", 
         "snippet": "Lords of the Fallen is a hardcore action-RPG featuring an advanced combat systems and robust class skill trees."
     }, 
     {
         "age": 3, 
         "id": "assasins_creed_3", 
-        "imageUrl": "img/phones/assasins_creed_3.jpg", 
+        "imageUrl": "img/games/assasins_creed_3.jpg", 
         "name": "Assassin Creed 3", 
         "snippet": " Assume the role of Connor, the son of a Native American mother and English father."
     }, 
@@ -31,7 +31,7 @@
         "age": 4, 
         "carrier": "Cellular South", 
         "id": "forza_motorsport_5", 
-        "imageUrl": "img/phones/forza_motorsport_5.jpg", 
+        "imageUrl": "img/games/forza_motorsport_5.jpg", 
         "name": "Forza Motorsport 5", 
         "snippet": "By learning how you and your compatriots drive, the utility of the cloud delivers real human behavior. "
     }

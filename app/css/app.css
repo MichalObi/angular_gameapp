@@ -2,11 +2,26 @@
 
 body {
   padding-top: 20px;
+  background-color: #151010;
+  color: #fff;
+}
+
+select, input {
+  color:#000;
+}
+
+a {
+  color: #9DE92B;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #9DE92B;
 }
 
 
 .game-images {
-  background-color: white;
+  background-color: #151010;
   width: 450px;
   height: 450px;
   overflow: hidden;
@@ -48,6 +63,13 @@ img.game:first-child {
   display: block;
 }
 
+ul.games {
+  padding: 0px;
+}
+
+ul.games li {
+   background-color: rgba(255,220,220,0.1);
+}
 
 ul.game-thumbs {
   margin: 0;
@@ -107,6 +129,10 @@ button a:hover {
   text-decoration: none;
 }
 
-div .row {
+div .desc {
   text-align: center;
+}
+
+div .navbox {
+  margin-bottom: 10px;
 }

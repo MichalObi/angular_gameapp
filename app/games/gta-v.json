@@ -1,12 +1,12 @@
 {
     "id": "gta-v", 
-    "name": "GTAV",
+    "name": "GTA V",
     "review": "Los Santos is a sprawling sun-soaked metropolis full of self-help gurus, starlets and once-important stars. The city was once the envy of the Western world, but is now struggling to stay relevant in an era of economic uncertainty and reality TV. Amidst the chaos, three very different criminals chart their own chances of survival and success: Franklin, a former street gangster, now looking for real opportunities and fat stacks of cash; Michael, a professional ex-con whose retirement is significantly less rosy than he hoped it would be; and Trevor, a violent maniac driven by the chance of a cheap high and the next big score. Rapidly running out of options, the crew risks everything in a series of bolt and dangerous heists that could set them up for the long haul.",
     "images": [
-        "img/phones/gtav.jpg", 
-        "img/phones/gtav.1.jpg", 
-        "img/phones/gtav.2.jpg", 
-        "img/phones/gtav.3.jpg" 
+        "img/games/gtav.jpg", 
+        "img/games/gtav.1.jpg", 
+        "img/games/gtav.2.jpg", 
+        "img/games/gtav.3.jpg" 
     ],
     "developer": "Rockstar North",
     "release": "Sep 17, 2013",

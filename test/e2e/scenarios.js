@@ -49,13 +49,13 @@ describe('Game App', function() {
       query.sendKeys('gta'); //let's narrow the dataset to make the test assertions shorter
 
       expect(getNames()).toEqual([
-        "GTAV"
+        "GTA V"
       ]);
 
       element(by.model('orderProp')).element(by.css('option[value="name"]')).click();
 
       expect(getNames()).toEqual([
-        "GTAV"
+        "GTA V"
       ]);
     });
 
@@ -79,7 +79,7 @@ describe('Game App', function() {
 
 
     it('should display gta-v page', function() {
-      expect(element(by.binding('game.name')).getText()).toBe('GTAV');
+      expect(element(by.binding('game.name')).getText()).toBe('GTA V');
     });
 
 
